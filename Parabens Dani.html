@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Irmã!</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: black; /* Fundo preto */
+            color: white; /* Texto branco */
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        h1 {
+            color: #d9534f;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 100%; /* Ajuste o tamanho da imagem para ser responsivo */
+            max-width: 300px; /* Tamanho máximo da imagem */
+            border-radius: 15px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1; /* Para garantir que a imagem esteja acima do texto */
+        }
+        .word-cloud {
+            display: flex;
+            justify-content: center; /* Centraliza a nuvem de palavras */
+            margin-top: 10px; /* Espaçamento entre a imagem e a nuvem de palavras */
+        }
+        .word-column {
+            display: flex;
+            flex-direction: column; /* Organiza as palavras em coluna */
+            align-items: center; /* Centraliza as palavras */
+            margin: 0 15px; /* Espaçamento horizontal entre as colunas */
+        }
+        .word {
+            color: white; /* Texto das palavras */
+            font-size: 1.5em; /* Tamanho da fonte padrão */
+            margin: 5px 0; /* Espaçamento entre as palavras */
+            pointer-events: none; /* Impede interação com as palavras */
+        }
+        .footer-text {
+            margin-top: 30px;
+            font-size: 1.2em; /* Tamanho de fonte adaptável */
+            position: relative;
+            z-index: 1; /* Para garantir que o texto fique acima da nuvem de palavras */
+        }
+    </style>
+</head>
+<body>
+    <h1>Parabéns, Irmã! 🎉</h1>
+    <p>Desejo a você muita saúde, sucesso e felicidades!</p>
+    <img src="https://scontent.fcgh23-1.fna.fbcdn.net/v/t39.30808-6/458949364_8564503220250175_8478323473941973176_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH8S8xCRhE2d-5ILXupdOfVWx5_t86Re0FbHn-3zpF7QaW_sPu2azsvBy8Gk--A9-EmjATtxJIYlmw_PNVdR9g3&_nc_ohc=Rwp6vWj4jlQQ7kNvgE36Ojl&_nc_ht=scontent.fcgh23-1.fna&_nc_gid=ALsKvGUUOfrUlmYMZQ-EpkY&oh=00_AYDIdDmOwwVNIR6h6-ZxLesrRdKZWqc7394HcjzAy399AA&oe=6715B3E3" alt="Imagem da Irmã">
+
+    <div class="word-cloud">
+        <div class="word-column" style="margin-right: 30px;">
+            <div class="word" style="color: #ff4d4d;">Empoderamento</div>
+            <div class="word" style="color: #ffd700;">Força</div>
+            <div class="word" style="color: #00ff7f;">Inteligência</div>
+            <div class="word" style="color: #1e90ff;">Criatividade</div>
+            <div class="word" style="color: #ff1493;">Rock</div>
+        </div>
+        <div class="word-column" style="margin-left: 30px;">
+            <div class="word" style="color: #ffa500;">Inovação</div>
+            <div class="word" style="color: #ff69b4;">Marketing</div>
+            <div class="word" style="color: #9370db;">Liberdade</div>
+            <div class="word" style="color: #00ced1;">Coragem</div>
+            <div class="word" style="color: #ff8c00;">Sucesso</div>
+        </div>
+    </div>
+
+    <div class="footer-text">
+        Continue a brilhar e fazendo a diferença na vida de todos ao seu redor!
+    </div>
+</body>
+</html>
